@@ -17,8 +17,7 @@
 
              $("#client").change(function () {
                  var inputClient = $('#client :selected').val();
-                 console.log(inputClient);
-
+                 
                  if (inputClient == '1' || inputClient == '2') {
 
                      console.log(inputClient);
